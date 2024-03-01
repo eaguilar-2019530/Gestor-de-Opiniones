@@ -23,17 +23,8 @@ export const checkUpdate = (data, userId)=>{
         if(
             Object.entries(data).length === 0 ||
             data.password ||
-            data.password == '' ||
-            data.role ||
-            data.role == ''
-        )return false
-        return false
-    }else{
-        if(
-            Object.entries(data).length === 0 ||
-            data.keeper ||
-            data.keeper == ''
-        )return false
+            data.password == '' 
+        )
         return false
     }
 }

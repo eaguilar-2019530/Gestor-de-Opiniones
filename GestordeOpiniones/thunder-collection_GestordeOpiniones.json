@@ -1,0 +1,146 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "GestordeOpiniones",
+    "dateExported": "2024-03-01T06:39:27.375Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "7344de0e-1c93-490a-bba2-0b938cec9f9f",
+            "name": "User",
+            "containerId": "",
+            "created": "2024-03-01T04:34:52.251Z",
+            "sortNum": 10000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "e296fc27-1f14-46c2-8425-2aff2076c53e",
+            "colId": "44fbf805-719a-4a81-80d5-ac49d3e5a2fa",
+            "containerId": "7344de0e-1c93-490a-bba2-0b938cec9f9f",
+            "name": "register",
+            "url": "/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-01T04:35:04.801Z",
+            "modified": "2024-03-01T05:46:51.117Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Jeannette"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Gatica"
+                    },
+                    {
+                        "name": "email",
+                        "value": "jgatica@kinal.edu.gt"
+                    },
+                    {
+                        "name": "username",
+                        "value": "jgatica"
+                    },
+                    {
+                        "name": "password",
+                        "value": "132456"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "25711d74-ce44-4dbb-af58-acf6bb11e4db",
+            "colId": "44fbf805-719a-4a81-80d5-ac49d3e5a2fa",
+            "containerId": "7344de0e-1c93-490a-bba2-0b938cec9f9f",
+            "name": "login",
+            "url": "/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-03-01T04:35:13.038Z",
+            "modified": "2024-03-01T05:53:45.376Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "jgatica",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "password",
+                        "value": "13245"
+                    },
+                    {
+                        "name": "email",
+                        "value": "eaguilar@kinal.edu.gt"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "a53789a4-cb97-4c80-856b-5899b7784579",
+            "colId": "44fbf805-719a-4a81-80d5-ac49d3e5a2fa",
+            "containerId": "7344de0e-1c93-490a-bba2-0b938cec9f9f",
+            "name": "Update",
+            "url": "/update/65e16bcbc359b578e8b6f424",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-03-01T05:36:14.866Z",
+            "modified": "2024-03-01T05:58:35.317Z",
+            "headers": [
+                {
+                    "name": "Token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZTE1YjUzNTgxNTZhYzYxOGFmM2FmZSIsInVzZXJuYW1lIjoiZWFndWlsYXIiLCJuYW1lIjoiRWRzb24iLCJlbWFpbCI6ImVhZ3VpbGFyQGtpbmFsLmVkdS5ndCIsImlhdCI6MTcwOTI3MjQyNSwiZXhwIjoxNzA5MjgzMjI1fQ.h4vS0OnrmsuCDa5LJvwP7geXPjD1PVf1V5-PSFQ01D4"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "jeannette"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Gatica"
+                    },
+                    {
+                        "name": "password",
+                        "value": "465789"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "b3ce63cb-730d-4ec5-92ce-f013074f0647",
+            "colId": "44fbf805-719a-4a81-80d5-ac49d3e5a2fa",
+            "containerId": "7344de0e-1c93-490a-bba2-0b938cec9f9f",
+            "name": "Delete",
+            "url": "/deleteU/65e16bcbc359b578e8b6f424",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-03-01T06:38:07.804Z",
+            "modified": "2024-03-01T06:38:39.641Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "localhost:2880"
+        }
+    }
+}
