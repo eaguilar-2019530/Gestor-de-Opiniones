@@ -24,7 +24,14 @@ export const checkUpdate = (data, userId)=>{
             Object.entries(data).length === 0 ||
             data.password ||
             data.password == '' 
-        )
-        return false
+        )return false
+        return true
+    }else{
+        if(
+            Object.entries(data).length === 0 ||
+            data.keeper  ||
+            data.keeper == ''
+        ) return false
+        return true
     }
 }

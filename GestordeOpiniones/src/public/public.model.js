@@ -1,18 +1,25 @@
-import mongoose from "mongoose"
+'use strict'
 
-const publicSchema = mongoose.Schema({
-    tilte:{
+import { Schema, model } from 'mongoose'
+
+const publiSchema = Schema({
+    Tilte: {
         type: String,
         required: true
     },
-    category:{
+    Category: {
         type: String,
         required: true
     },
-    text:{
+    Text: {
         type: String,
+        required: true
+    },
+    keeper: {
+        type: Schema.ObjectId,
+        ref: 'user',
         required: true
     }
 })
 
-export default mongoose.model('public', publicSchema)
+export default model('publi', publiSchema)

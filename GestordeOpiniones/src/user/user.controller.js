@@ -52,8 +52,8 @@ export const update = async(req, res)=>{
     try {
         let { id } = req.params
         let data = req.body
-        // let update = checkUpdate(data, id)
-        // if(!update) return res.status(400).send({message: 'Los datos enviado no se pueden actualizar o falta datos'})
+        let update = checkUpdate(data, id)
+        if(!update) return res.status(400).send({message: 'Los datos enviado no se pueden actualizar o falta datos'})
         let updateUser = await User.findOneAndUpdate(
             {_id: id},
             data,
