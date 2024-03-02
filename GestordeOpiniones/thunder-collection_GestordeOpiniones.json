@@ -1,28 +1,35 @@
 {
     "client": "Thunder Client",
     "collectionName": "GestordeOpiniones",
-    "dateExported": "2024-03-01T06:39:27.375Z",
+    "dateExported": "2024-03-02T16:13:46.850Z",
     "version": "1.1",
     "folders": [
         {
-            "_id": "7344de0e-1c93-490a-bba2-0b938cec9f9f",
+            "_id": "d4541510-092c-49ef-9f41-49e2f5391ce2",
             "name": "User",
             "containerId": "",
-            "created": "2024-03-01T04:34:52.251Z",
+            "created": "2024-03-02T15:59:50.226Z",
             "sortNum": 10000
+        },
+        {
+            "_id": "5e7409b4-7ab0-4729-a561-6755501733eb",
+            "name": "Public",
+            "containerId": "",
+            "created": "2024-03-02T16:00:54.828Z",
+            "sortNum": 20000
         }
     ],
     "requests": [
         {
-            "_id": "e296fc27-1f14-46c2-8425-2aff2076c53e",
-            "colId": "44fbf805-719a-4a81-80d5-ac49d3e5a2fa",
-            "containerId": "7344de0e-1c93-490a-bba2-0b938cec9f9f",
+            "_id": "ddbcb436-8350-4ab1-ad04-30803a1349dd",
+            "colId": "950e8e1a-bf18-4ada-b0d0-fa20d83918c0",
+            "containerId": "d4541510-092c-49ef-9f41-49e2f5391ce2",
             "name": "register",
             "url": "/register",
             "method": "POST",
             "sortNum": 10000,
-            "created": "2024-03-01T04:35:04.801Z",
-            "modified": "2024-03-01T05:46:51.117Z",
+            "created": "2024-03-02T15:59:50.226Z",
+            "modified": "2024-03-02T15:59:50.226Z",
             "headers": [],
             "params": [],
             "body": {
@@ -54,15 +61,15 @@
             "tests": []
         },
         {
-            "_id": "25711d74-ce44-4dbb-af58-acf6bb11e4db",
-            "colId": "44fbf805-719a-4a81-80d5-ac49d3e5a2fa",
-            "containerId": "7344de0e-1c93-490a-bba2-0b938cec9f9f",
+            "_id": "26b5ec19-895e-4605-8d52-ef5ba149d0d1",
+            "colId": "950e8e1a-bf18-4ada-b0d0-fa20d83918c0",
+            "containerId": "d4541510-092c-49ef-9f41-49e2f5391ce2",
             "name": "login",
             "url": "/login",
             "method": "POST",
             "sortNum": 20000,
-            "created": "2024-03-01T04:35:13.038Z",
-            "modified": "2024-03-01T05:53:45.376Z",
+            "created": "2024-03-02T15:59:50.227Z",
+            "modified": "2024-03-02T15:59:50.227Z",
             "headers": [],
             "params": [],
             "body": {
@@ -87,15 +94,15 @@
             "tests": []
         },
         {
-            "_id": "a53789a4-cb97-4c80-856b-5899b7784579",
-            "colId": "44fbf805-719a-4a81-80d5-ac49d3e5a2fa",
-            "containerId": "7344de0e-1c93-490a-bba2-0b938cec9f9f",
+            "_id": "ad233cd3-32a2-4728-a8bd-b1a5e188ecd2",
+            "colId": "950e8e1a-bf18-4ada-b0d0-fa20d83918c0",
+            "containerId": "d4541510-092c-49ef-9f41-49e2f5391ce2",
             "name": "Update",
             "url": "/update/65e16bcbc359b578e8b6f424",
             "method": "PUT",
             "sortNum": 30000,
-            "created": "2024-03-01T05:36:14.866Z",
-            "modified": "2024-03-01T05:58:35.317Z",
+            "created": "2024-03-02T15:59:50.228Z",
+            "modified": "2024-03-02T15:59:50.228Z",
             "headers": [
                 {
                     "name": "Token",
@@ -124,15 +131,65 @@
             "tests": []
         },
         {
-            "_id": "b3ce63cb-730d-4ec5-92ce-f013074f0647",
-            "colId": "44fbf805-719a-4a81-80d5-ac49d3e5a2fa",
-            "containerId": "7344de0e-1c93-490a-bba2-0b938cec9f9f",
+            "_id": "d7a03832-bf06-4bc7-a676-d9df712f5993",
+            "colId": "950e8e1a-bf18-4ada-b0d0-fa20d83918c0",
+            "containerId": "d4541510-092c-49ef-9f41-49e2f5391ce2",
             "name": "Delete",
             "url": "/deleteU/65e16bcbc359b578e8b6f424",
             "method": "DELETE",
             "sortNum": 40000,
-            "created": "2024-03-01T06:38:07.804Z",
-            "modified": "2024-03-01T06:38:39.641Z",
+            "created": "2024-03-02T15:59:50.229Z",
+            "modified": "2024-03-02T15:59:50.229Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9004b1bc-8edb-4f93-aa62-b7242124fe1f",
+            "colId": "950e8e1a-bf18-4ada-b0d0-fa20d83918c0",
+            "containerId": "5e7409b4-7ab0-4729-a561-6755501733eb",
+            "name": "save",
+            "url": "",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-03-02T16:01:01.260Z",
+            "modified": "2024-03-02T16:01:01.260Z",
+            "headers": []
+        },
+        {
+            "_id": "01b7a5cf-e7da-4e3c-a064-3292a43f2069",
+            "colId": "950e8e1a-bf18-4ada-b0d0-fa20d83918c0",
+            "containerId": "5e7409b4-7ab0-4729-a561-6755501733eb",
+            "name": "update",
+            "url": "",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-03-02T16:01:08.243Z",
+            "modified": "2024-03-02T16:01:08.243Z",
+            "headers": []
+        },
+        {
+            "_id": "1ca94851-f179-4376-93c0-9b813402a3da",
+            "colId": "950e8e1a-bf18-4ada-b0d0-fa20d83918c0",
+            "containerId": "5e7409b4-7ab0-4729-a561-6755501733eb",
+            "name": "delete",
+            "url": "",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-03-02T16:01:17.326Z",
+            "modified": "2024-03-02T16:01:17.327Z",
+            "headers": []
+        },
+        {
+            "_id": "deb8a3b2-1ca8-41d5-b69d-23f071d4e112",
+            "colId": "950e8e1a-bf18-4ada-b0d0-fa20d83918c0",
+            "containerId": "5e7409b4-7ab0-4729-a561-6755501733eb",
+            "name": "get",
+            "url": "/public/get",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-03-02T16:01:24.113Z",
+            "modified": "2024-03-02T16:03:52.949Z",
             "headers": [],
             "params": [],
             "tests": []
